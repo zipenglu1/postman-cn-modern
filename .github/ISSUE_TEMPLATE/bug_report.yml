@@ -1,0 +1,53 @@
+name: Bug report
+description: Report an install, restore, or localization problem
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Please remove private workspace data, tokens, account details, and request bodies before posting.
+  - type: input
+    id: postman-version
+    attributes:
+      label: Postman version
+      description: Example: 12.7.6
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version
+      description: Example: Windows 11 24H2
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: What did you do before the problem happened?
+      placeholder: |
+        1. Closed Postman
+        2. Ran install-cn.cmd
+        3. Chose option 1
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Paste install output or report snippets if useful.
+      render: text

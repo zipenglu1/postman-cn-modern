@@ -1,0 +1,2396 @@
+{
+  "versionRange": ">=12.0.0 <13.0.0",
+  "entries": [
+    {
+      "source": "Send",
+      "target": "发送",
+      "match": "literal"
+    },
+    {
+      "source": "Save",
+      "target": "保存",
+      "match": "literal"
+    },
+    {
+      "source": "Cancel",
+      "target": "取消",
+      "match": "literal"
+    },
+    {
+      "source": "Delete",
+      "target": "删除",
+      "match": "literal"
+    },
+    {
+      "source": "Edit",
+      "target": "编辑",
+      "match": "literal"
+    },
+    {
+      "source": "Import",
+      "target": "导入",
+      "match": "literal"
+    },
+    {
+      "source": "Export",
+      "target": "导出",
+      "match": "literal"
+    },
+    {
+      "source": "Settings",
+      "target": "设置",
+      "match": "literal"
+    },
+    {
+      "source": "History",
+      "target": "历史",
+      "match": "literal"
+    },
+    {
+      "source": "Collections",
+      "target": "集合",
+      "match": "literal"
+    },
+    {
+      "source": "Collection",
+      "target": "集合",
+      "match": "literal"
+    },
+    {
+      "source": "Environment",
+      "target": "环境",
+      "match": "literal"
+    },
+    {
+      "source": "Environments",
+      "target": "环境",
+      "match": "literal"
+    },
+    {
+      "source": "Workspace",
+      "target": "工作区",
+      "match": "literal"
+    },
+    {
+      "source": "Workspaces",
+      "target": "工作区",
+      "match": "literal"
+    },
+    {
+      "source": "Params",
+      "target": "参数",
+      "match": "literal"
+    },
+    {
+      "source": "Authorization",
+      "target": "授权",
+      "match": "literal"
+    },
+    {
+      "source": "Headers",
+      "target": "请求头",
+      "match": "literal"
+    },
+    {
+      "source": "Body",
+      "target": "正文",
+      "match": "literal"
+    },
+    {
+      "source": "Scripts",
+      "target": "脚本",
+      "match": "literal"
+    },
+    {
+      "source": "Tests",
+      "target": "测试",
+      "match": "literal"
+    },
+    {
+      "source": "Pre-request",
+      "target": "预请求",
+      "match": "literal"
+    },
+    {
+      "source": "Pre-request Script",
+      "target": "预请求脚本",
+      "match": "literal"
+    },
+    {
+      "source": "Response",
+      "target": "响应",
+      "match": "literal"
+    },
+    {
+      "source": "Responses",
+      "target": "响应",
+      "match": "literal"
+    },
+    {
+      "source": "Cookies",
+      "target": "Cookie",
+      "match": "literal"
+    },
+    {
+      "source": "Cookie",
+      "target": "Cookie",
+      "match": "literal"
+    },
+    {
+      "source": "Documentation",
+      "target": "文档",
+      "match": "literal"
+    },
+    {
+      "source": "Variables",
+      "target": "变量",
+      "match": "literal"
+    },
+    {
+      "source": "Variable",
+      "target": "变量",
+      "match": "literal"
+    },
+    {
+      "source": "Value",
+      "target": "值",
+      "match": "literal"
+    },
+    {
+      "source": "Key",
+      "target": "键",
+      "match": "literal"
+    },
+    {
+      "source": "Description",
+      "target": "描述",
+      "match": "literal"
+    },
+    {
+      "source": "Type",
+      "target": "类型",
+      "match": "literal"
+    },
+    {
+      "source": "Name",
+      "target": "名称",
+      "match": "literal"
+    },
+    {
+      "source": "URL",
+      "target": "URL",
+      "match": "literal"
+    },
+    {
+      "source": "Method",
+      "target": "方法",
+      "match": "literal"
+    },
+    {
+      "source": "Status",
+      "target": "状态",
+      "match": "literal"
+    },
+    {
+      "source": "Size",
+      "target": "大小",
+      "match": "literal"
+    },
+    {
+      "source": "Time",
+      "target": "时间",
+      "match": "literal"
+    },
+    {
+      "source": "Search",
+      "target": "搜索",
+      "match": "literal"
+    },
+    {
+      "source": "Filter",
+      "target": "筛选",
+      "match": "literal"
+    },
+    {
+      "source": "Sort",
+      "target": "排序",
+      "match": "literal"
+    },
+    {
+      "source": "Refresh",
+      "target": "刷新",
+      "match": "literal"
+    },
+    {
+      "source": "Reload",
+      "target": "重新加载",
+      "match": "literal"
+    },
+    {
+      "source": "Copy",
+      "target": "复制",
+      "match": "literal"
+    },
+    {
+      "source": "Paste",
+      "target": "粘贴",
+      "match": "literal"
+    },
+    {
+      "source": "Cut",
+      "target": "剪切",
+      "match": "literal"
+    },
+    {
+      "source": "Duplicate",
+      "target": "复制副本",
+      "match": "literal"
+    },
+    {
+      "source": "Rename",
+      "target": "重命名",
+      "match": "literal"
+    },
+    {
+      "source": "Move",
+      "target": "移动",
+      "match": "literal"
+    },
+    {
+      "source": "Share",
+      "target": "共享",
+      "match": "literal"
+    },
+    {
+      "source": "Fork",
+      "target": "分叉",
+      "match": "literal"
+    },
+    {
+      "source": "Merge",
+      "target": "合并",
+      "match": "literal"
+    },
+    {
+      "source": "Watch",
+      "target": "关注",
+      "match": "literal"
+    },
+    {
+      "source": "Unwatch",
+      "target": "取消关注",
+      "match": "literal"
+    },
+    {
+      "source": "Publish",
+      "target": "发布",
+      "match": "literal"
+    },
+    {
+      "source": "Unpublish",
+      "target": "取消发布",
+      "match": "literal"
+    },
+    {
+      "source": "Invite",
+      "target": "邀请",
+      "match": "literal"
+    },
+    {
+      "source": "Upgrade",
+      "target": "升级",
+      "match": "literal"
+    },
+    {
+      "source": "New",
+      "target": "新建",
+      "match": "literal"
+    },
+    {
+      "source": "Create",
+      "target": "创建",
+      "match": "literal"
+    },
+    {
+      "source": "Add",
+      "target": "添加",
+      "match": "literal"
+    },
+    {
+      "source": "Remove",
+      "target": "移除",
+      "match": "literal"
+    },
+    {
+      "source": "Open",
+      "target": "打开",
+      "match": "literal"
+    },
+    {
+      "source": "Close",
+      "target": "关闭",
+      "match": "literal"
+    },
+    {
+      "source": "Done",
+      "target": "完成",
+      "match": "literal"
+    },
+    {
+      "source": "Apply",
+      "target": "应用",
+      "match": "literal"
+    },
+    {
+      "source": "Reset",
+      "target": "重置",
+      "match": "literal"
+    },
+    {
+      "source": "Clear",
+      "target": "清除",
+      "match": "literal"
+    },
+    {
+      "source": "Select",
+      "target": "选择",
+      "match": "literal"
+    },
+    {
+      "source": "Deselect",
+      "target": "取消选择",
+      "match": "literal"
+    },
+    {
+      "source": "Enable",
+      "target": "启用",
+      "match": "literal"
+    },
+    {
+      "source": "Disable",
+      "target": "禁用",
+      "match": "literal"
+    },
+    {
+      "source": "Enabled",
+      "target": "已启用",
+      "match": "literal"
+    },
+    {
+      "source": "Disabled",
+      "target": "已禁用",
+      "match": "literal"
+    },
+    {
+      "source": "On",
+      "target": "开",
+      "match": "literal"
+    },
+    {
+      "source": "Off",
+      "target": "关",
+      "match": "literal"
+    },
+    {
+      "source": "Yes",
+      "target": "是",
+      "match": "literal"
+    },
+    {
+      "source": "No",
+      "target": "否",
+      "match": "literal"
+    },
+    {
+      "source": "OK",
+      "target": "确定",
+      "match": "literal"
+    },
+    {
+      "source": "Continue",
+      "target": "继续",
+      "match": "literal"
+    },
+    {
+      "source": "Back",
+      "target": "返回",
+      "match": "literal"
+    },
+    {
+      "source": "Next",
+      "target": "下一步",
+      "match": "literal"
+    },
+    {
+      "source": "Skip",
+      "target": "跳过",
+      "match": "literal"
+    },
+    {
+      "source": "Learn more",
+      "target": "了解更多",
+      "match": "literal"
+    },
+    {
+      "source": "View documentation",
+      "target": "查看文档",
+      "match": "literal"
+    },
+    {
+      "source": "View more actions",
+      "target": "查看更多操作",
+      "match": "literal"
+    },
+    {
+      "source": "More actions",
+      "target": "更多操作",
+      "match": "literal"
+    },
+    {
+      "source": "New Collection",
+      "target": "新建集合",
+      "match": "literal"
+    },
+    {
+      "source": "New Request",
+      "target": "新建请求",
+      "match": "literal"
+    },
+    {
+      "source": "New Folder",
+      "target": "新建文件夹",
+      "match": "literal"
+    },
+    {
+      "source": "New Environment",
+      "target": "新建环境",
+      "match": "literal"
+    },
+    {
+      "source": "New Workspace",
+      "target": "新建工作区",
+      "match": "literal"
+    },
+    {
+      "source": "Add a request",
+      "target": "添加请求",
+      "match": "literal"
+    },
+    {
+      "source": "Add request",
+      "target": "添加请求",
+      "match": "literal"
+    },
+    {
+      "source": "Add folder",
+      "target": "添加文件夹",
+      "match": "literal"
+    },
+    {
+      "source": "Add example",
+      "target": "添加示例",
+      "match": "literal"
+    },
+    {
+      "source": "Add documentation",
+      "target": "添加文档",
+      "match": "literal"
+    },
+    {
+      "source": "Save request",
+      "target": "保存请求",
+      "match": "literal"
+    },
+    {
+      "source": "Save as",
+      "target": "另存为",
+      "match": "literal"
+    },
+    {
+      "source": "Save response",
+      "target": "保存响应",
+      "match": "literal"
+    },
+    {
+      "source": "Send and Download",
+      "target": "发送并下载",
+      "match": "literal"
+    },
+    {
+      "source": "Send and download",
+      "target": "发送并下载",
+      "match": "literal"
+    },
+    {
+      "source": "Generate code",
+      "target": "生成代码",
+      "match": "literal"
+    },
+    {
+      "source": "Code snippet",
+      "target": "代码片段",
+      "match": "literal"
+    },
+    {
+      "source": "Beautify",
+      "target": "美化",
+      "match": "literal"
+    },
+    {
+      "source": "Wrap lines",
+      "target": "自动换行",
+      "match": "literal"
+    },
+    {
+      "source": "Visualize",
+      "target": "可视化",
+      "match": "literal"
+    },
+    {
+      "source": "Console",
+      "target": "控制台",
+      "match": "literal"
+    },
+    {
+      "source": "Runner",
+      "target": "运行器",
+      "match": "literal"
+    },
+    {
+      "source": "Run",
+      "target": "运行",
+      "match": "literal"
+    },
+    {
+      "source": "Run collection",
+      "target": "运行集合",
+      "match": "literal"
+    },
+    {
+      "source": "Run manually",
+      "target": "手动运行",
+      "match": "literal"
+    },
+    {
+      "source": "Iterations",
+      "target": "迭代次数",
+      "match": "literal"
+    },
+    {
+      "source": "Delay",
+      "target": "延迟",
+      "match": "literal"
+    },
+    {
+      "source": "Data",
+      "target": "数据",
+      "match": "literal"
+    },
+    {
+      "source": "Data file",
+      "target": "数据文件",
+      "match": "literal"
+    },
+    {
+      "source": "Upload file",
+      "target": "上传文件",
+      "match": "literal"
+    },
+    {
+      "source": "Select file",
+      "target": "选择文件",
+      "match": "literal"
+    },
+    {
+      "source": "Import collection",
+      "target": "导入集合",
+      "match": "literal"
+    },
+    {
+      "source": "Import file",
+      "target": "导入文件",
+      "match": "literal"
+    },
+    {
+      "source": "Import from file",
+      "target": "从文件导入",
+      "match": "literal"
+    },
+    {
+      "source": "Import from link",
+      "target": "从链接导入",
+      "match": "literal"
+    },
+    {
+      "source": "Paste raw text",
+      "target": "粘贴原始文本",
+      "match": "literal"
+    },
+    {
+      "source": "Upload Files",
+      "target": "上传文件",
+      "match": "literal"
+    },
+    {
+      "source": "Raw text",
+      "target": "原始文本",
+      "match": "literal"
+    },
+    {
+      "source": "File",
+      "target": "文件",
+      "match": "literal"
+    },
+    {
+      "source": "Folder",
+      "target": "文件夹",
+      "match": "literal"
+    },
+    {
+      "source": "Link",
+      "target": "链接",
+      "match": "literal"
+    },
+    {
+      "source": "No environment",
+      "target": "无环境",
+      "match": "literal"
+    },
+    {
+      "source": "Manage environments",
+      "target": "管理环境",
+      "match": "literal"
+    },
+    {
+      "source": "Manage Environments",
+      "target": "管理环境",
+      "match": "literal"
+    },
+    {
+      "source": "Globals",
+      "target": "全局变量",
+      "match": "literal"
+    },
+    {
+      "source": "Global",
+      "target": "全局",
+      "match": "literal"
+    },
+    {
+      "source": "Current value",
+      "target": "当前值",
+      "match": "literal"
+    },
+    {
+      "source": "Initial value",
+      "target": "初始值",
+      "match": "literal"
+    },
+    {
+      "source": "Persist all",
+      "target": "全部持久化",
+      "match": "literal"
+    },
+    {
+      "source": "Reset all",
+      "target": "全部重置",
+      "match": "literal"
+    },
+    {
+      "source": "Add variable",
+      "target": "添加变量",
+      "match": "literal"
+    },
+    {
+      "source": "Variable name",
+      "target": "变量名",
+      "match": "literal"
+    },
+    {
+      "source": "Variable value",
+      "target": "变量值",
+      "match": "literal"
+    },
+    {
+      "source": "Authorization type",
+      "target": "授权类型",
+      "match": "literal"
+    },
+    {
+      "source": "Auth Type",
+      "target": "授权类型",
+      "match": "literal"
+    },
+    {
+      "source": "No Auth",
+      "target": "无授权",
+      "match": "literal"
+    },
+    {
+      "source": "Bearer Token",
+      "target": "Bearer Token",
+      "match": "literal"
+    },
+    {
+      "source": "Basic Auth",
+      "target": "Basic Auth",
+      "match": "literal"
+    },
+    {
+      "source": "API Key",
+      "target": "API Key",
+      "match": "literal"
+    },
+    {
+      "source": "OAuth 2.0",
+      "target": "OAuth 2.0",
+      "match": "literal"
+    },
+    {
+      "source": "Inherit auth from parent",
+      "target": "从父级继承授权",
+      "match": "literal"
+    },
+    {
+      "source": "Token",
+      "target": "令牌",
+      "match": "literal"
+    },
+    {
+      "source": "Username",
+      "target": "用户名",
+      "match": "literal"
+    },
+    {
+      "source": "Password",
+      "target": "密码",
+      "match": "literal"
+    },
+    {
+      "source": "Header",
+      "target": "请求头",
+      "match": "literal"
+    },
+    {
+      "source": "Query Params",
+      "target": "查询参数",
+      "match": "literal"
+    },
+    {
+      "source": "Path Variables",
+      "target": "路径变量",
+      "match": "literal"
+    },
+    {
+      "source": "Request Headers",
+      "target": "请求头",
+      "match": "literal"
+    },
+    {
+      "source": "Response Headers",
+      "target": "响应头",
+      "match": "literal"
+    },
+    {
+      "source": "Header Presets",
+      "target": "请求头预设",
+      "match": "literal"
+    },
+    {
+      "source": "Bulk Edit",
+      "target": "批量编辑",
+      "match": "literal"
+    },
+    {
+      "source": "Key-Value Edit",
+      "target": "键值编辑",
+      "match": "literal"
+    },
+    {
+      "source": "none",
+      "target": "无",
+      "match": "literal"
+    },
+    {
+      "source": "form-data",
+      "target": "form-data",
+      "match": "literal"
+    },
+    {
+      "source": "x-www-form-urlencoded",
+      "target": "x-www-form-urlencoded",
+      "match": "literal"
+    },
+    {
+      "source": "raw",
+      "target": "raw",
+      "match": "literal"
+    },
+    {
+      "source": "binary",
+      "target": "binary",
+      "match": "literal"
+    },
+    {
+      "source": "GraphQL",
+      "target": "GraphQL",
+      "match": "literal"
+    },
+    {
+      "source": "Pretty",
+      "target": "美化",
+      "match": "literal"
+    },
+    {
+      "source": "Raw",
+      "target": "原始",
+      "match": "literal"
+    },
+    {
+      "source": "Preview",
+      "target": "预览",
+      "match": "literal"
+    },
+    {
+      "source": "Test Results",
+      "target": "测试结果",
+      "match": "literal"
+    },
+    {
+      "source": "Body size",
+      "target": "正文大小",
+      "match": "literal"
+    },
+    {
+      "source": "Response time",
+      "target": "响应时间",
+      "match": "literal"
+    },
+    {
+      "source": "Status code",
+      "target": "状态码",
+      "match": "literal"
+    },
+    {
+      "source": "No response",
+      "target": "无响应",
+      "match": "literal"
+    },
+    {
+      "source": "Response body",
+      "target": "响应正文",
+      "match": "literal"
+    },
+    {
+      "source": "Request body",
+      "target": "请求正文",
+      "match": "literal"
+    },
+    {
+      "source": "Request URL",
+      "target": "请求 URL",
+      "match": "literal"
+    },
+    {
+      "source": "Request method",
+      "target": "请求方法",
+      "match": "literal"
+    },
+    {
+      "source": "Status: ",
+      "target": "状态：",
+      "match": "literal"
+    },
+    {
+      "source": "Online",
+      "target": "在线",
+      "match": "literal"
+    },
+    {
+      "source": "Offline",
+      "target": "离线",
+      "match": "literal"
+    },
+    {
+      "source": "Syncing",
+      "target": "正在同步",
+      "match": "literal"
+    },
+    {
+      "source": "Synced",
+      "target": "已同步",
+      "match": "literal"
+    },
+    {
+      "source": "Unsaved changes",
+      "target": "未保存的更改",
+      "match": "literal"
+    },
+    {
+      "source": "Something went wrong",
+      "target": "出了点问题",
+      "match": "literal"
+    },
+    {
+      "source": "Try again",
+      "target": "重试",
+      "match": "literal"
+    },
+    {
+      "source": "Sign in",
+      "target": "登录",
+      "match": "literal"
+    },
+    {
+      "source": "Sign out",
+      "target": "退出登录",
+      "match": "literal"
+    },
+    {
+      "source": "Account",
+      "target": "账户",
+      "match": "literal"
+    },
+    {
+      "source": "Profile",
+      "target": "个人资料",
+      "match": "literal"
+    },
+    {
+      "source": "Team",
+      "target": "团队",
+      "match": "literal"
+    },
+    {
+      "source": "Teams",
+      "target": "团队",
+      "match": "literal"
+    },
+    {
+      "source": "Personal",
+      "target": "个人",
+      "match": "literal"
+    },
+    {
+      "source": "Private",
+      "target": "私有",
+      "match": "literal"
+    },
+    {
+      "source": "Public",
+      "target": "公开",
+      "match": "literal"
+    },
+    {
+      "source": "General",
+      "target": "常规",
+      "match": "literal"
+    },
+    {
+      "source": "Themes",
+      "target": "主题",
+      "match": "literal"
+    },
+    {
+      "source": "Shortcuts",
+      "target": "快捷键",
+      "match": "literal"
+    },
+    {
+      "source": "Proxy",
+      "target": "代理",
+      "match": "literal"
+    },
+    {
+      "source": "Certificates",
+      "target": "证书",
+      "match": "literal"
+    },
+    {
+      "source": "Update",
+      "target": "更新",
+      "match": "literal"
+    },
+    {
+      "source": "Updates",
+      "target": "更新",
+      "match": "literal"
+    },
+    {
+      "source": "About",
+      "target": "关于",
+      "match": "literal"
+    },
+    {
+      "source": "Language",
+      "target": "语言",
+      "match": "literal"
+    },
+    {
+      "source": "Theme",
+      "target": "主题",
+      "match": "literal"
+    },
+    {
+      "source": "Light",
+      "target": "浅色",
+      "match": "literal"
+    },
+    {
+      "source": "Dark",
+      "target": "深色",
+      "match": "literal"
+    },
+    {
+      "source": "System",
+      "target": "跟随系统",
+      "match": "literal"
+    },
+    {
+      "source": "Font size",
+      "target": "字体大小",
+      "match": "literal"
+    },
+    {
+      "source": "Request timeout",
+      "target": "请求超时",
+      "match": "literal"
+    },
+    {
+      "source": "SSL certificate verification",
+      "target": "SSL 证书验证",
+      "match": "literal"
+    },
+    {
+      "source": "Automatically follow redirects",
+      "target": "自动跟随重定向",
+      "match": "literal"
+    },
+    {
+      "source": "Send no-cache header",
+      "target": "发送 no-cache 请求头",
+      "match": "literal"
+    },
+    {
+      "source": "Send Postman Token header",
+      "target": "发送 Postman Token 请求头",
+      "match": "literal"
+    },
+    {
+      "source": "Use system proxy",
+      "target": "使用系统代理",
+      "match": "literal"
+    },
+    {
+      "source": "Add certificate",
+      "target": "添加证书",
+      "match": "literal"
+    },
+    {
+      "source": "Client certificates",
+      "target": "客户端证书",
+      "match": "literal"
+    },
+    {
+      "source": "CA certificates",
+      "target": "CA 证书",
+      "match": "literal"
+    },
+    {
+      "source": "Host",
+      "target": "主机",
+      "match": "literal"
+    },
+    {
+      "source": "Port",
+      "target": "端口",
+      "match": "literal"
+    },
+    {
+      "source": "Protocol",
+      "target": "协议",
+      "match": "literal"
+    },
+    {
+      "source": "Authentication",
+      "target": "认证",
+      "match": "literal"
+    },
+    {
+      "source": "Proxy authentication",
+      "target": "代理认证",
+      "match": "literal"
+    },
+    {
+      "source": "Proxy Auth",
+      "target": "代理认证",
+      "match": "literal"
+    },
+    {
+      "source": "Enter username",
+      "target": "输入用户名",
+      "match": "literal"
+    },
+    {
+      "source": "Enter password",
+      "target": "输入密码",
+      "match": "literal"
+    },
+    {
+      "source": "Use the Postman Desktop Agent",
+      "target": "使用 Postman 桌面代理",
+      "match": "literal"
+    },
+    {
+      "source": "Desktop Agent",
+      "target": "桌面代理",
+      "match": "literal"
+    },
+    {
+      "source": "Cloud Agent",
+      "target": "云代理",
+      "match": "literal"
+    },
+    {
+      "source": "Capture requests",
+      "target": "捕获请求",
+      "match": "literal"
+    },
+    {
+      "source": "Interceptor",
+      "target": "拦截器",
+      "match": "literal"
+    },
+    {
+      "source": "Monitors",
+      "target": "监视器",
+      "match": "literal"
+    },
+    {
+      "source": "Mock servers",
+      "target": "模拟服务器",
+      "match": "literal"
+    },
+    {
+      "source": "APIs",
+      "target": "API",
+      "match": "literal"
+    },
+    {
+      "source": "API Builder",
+      "target": "API 构建器",
+      "match": "literal"
+    },
+    {
+      "source": "Flows",
+      "target": "流程",
+      "match": "literal"
+    },
+    {
+      "source": "Explore",
+      "target": "探索",
+      "match": "literal"
+    },
+    {
+      "source": "Home",
+      "target": "主页",
+      "match": "literal"
+    },
+    {
+      "source": "Notification",
+      "target": "通知",
+      "match": "literal"
+    },
+    {
+      "source": "Notifications",
+      "target": "通知",
+      "match": "literal"
+    },
+    {
+      "source": "Trash",
+      "target": "回收站",
+      "match": "literal"
+    },
+    {
+      "source": "Restore",
+      "target": "还原",
+      "match": "literal"
+    },
+    {
+      "source": "Permanently delete",
+      "target": "永久删除",
+      "match": "literal"
+    },
+    {
+      "source": "Search Postman",
+      "target": "搜索 Postman",
+      "match": "literal"
+    },
+    {
+      "source": "Search collections",
+      "target": "搜索集合",
+      "match": "literal"
+    },
+    {
+      "source": "Search environments",
+      "target": "搜索环境",
+      "match": "literal"
+    },
+    {
+      "source": "Search history",
+      "target": "搜索历史",
+      "match": "literal"
+    },
+    {
+      "source": "No collections found",
+      "target": "未找到集合",
+      "match": "literal"
+    },
+    {
+      "source": "No environments found",
+      "target": "未找到环境",
+      "match": "literal"
+    },
+    {
+      "source": "No history found",
+      "target": "未找到历史",
+      "match": "literal"
+    },
+    {
+      "source": "No results found",
+      "target": "未找到结果",
+      "match": "literal"
+    },
+    {
+      "source": "No items found",
+      "target": "未找到项目",
+      "match": "literal"
+    },
+    {
+      "source": "Get started",
+      "target": "开始使用",
+      "match": "literal"
+    },
+    {
+      "source": "Create a collection",
+      "target": "创建集合",
+      "match": "literal"
+    },
+    {
+      "source": "Create a request",
+      "target": "创建请求",
+      "match": "literal"
+    },
+    {
+      "source": "Create an environment",
+      "target": "创建环境",
+      "match": "literal"
+    },
+    {
+      "source": "Create workspace",
+      "target": "创建工作区",
+      "match": "literal"
+    },
+    {
+      "source": "Select a collection",
+      "target": "选择集合",
+      "match": "literal"
+    },
+    {
+      "source": "Select a workspace",
+      "target": "选择工作区",
+      "match": "literal"
+    },
+    {
+      "source": "Select an environment",
+      "target": "选择环境",
+      "match": "literal"
+    },
+    {
+      "source": "Request name",
+      "target": "请求名称",
+      "match": "literal"
+    },
+    {
+      "source": "Collection name",
+      "target": "集合名称",
+      "match": "literal"
+    },
+    {
+      "source": "Environment name",
+      "target": "环境名称",
+      "match": "literal"
+    },
+    {
+      "source": "Workspace name",
+      "target": "工作区名称",
+      "match": "literal"
+    },
+    {
+      "source": "Untitled Request",
+      "target": "未命名请求",
+      "match": "literal"
+    },
+    {
+      "source": "Untitled Collection",
+      "target": "未命名集合",
+      "match": "literal"
+    },
+    {
+      "source": "Untitled Environment",
+      "target": "未命名环境",
+      "match": "literal"
+    },
+    {
+      "source": "Request saved",
+      "target": "请求已保存",
+      "match": "literal"
+    },
+    {
+      "source": "Collection saved",
+      "target": "集合已保存",
+      "match": "literal"
+    },
+    {
+      "source": "Environment saved",
+      "target": "环境已保存",
+      "match": "literal"
+    },
+    {
+      "source": "Request failed",
+      "target": "请求失败",
+      "match": "literal"
+    },
+    {
+      "source": "Request sent",
+      "target": "请求已发送",
+      "match": "literal"
+    },
+    {
+      "source": "Loading",
+      "target": "正在加载",
+      "match": "literal"
+    },
+    {
+      "source": "Loading...",
+      "target": "正在加载...",
+      "match": "literal"
+    },
+    {
+      "source": "Saving",
+      "target": "正在保存",
+      "match": "literal"
+    },
+    {
+      "source": "Saving...",
+      "target": "正在保存...",
+      "match": "literal"
+    },
+    {
+      "source": "Sending",
+      "target": "正在发送",
+      "match": "literal"
+    },
+    {
+      "source": "Sending...",
+      "target": "正在发送...",
+      "match": "literal"
+    },
+    {
+      "source": "Connecting",
+      "target": "正在连接",
+      "match": "literal"
+    },
+    {
+      "source": "Connected",
+      "target": "已连接",
+      "match": "literal"
+    },
+    {
+      "source": "Disconnected",
+      "target": "已断开连接",
+      "match": "literal"
+    },
+    {
+      "source": "You are offline",
+      "target": "你当前离线",
+      "match": "literal"
+    },
+    {
+      "source": "Check your connection and try again.",
+      "target": "请检查连接后重试。",
+      "match": "literal"
+    },
+    {
+      "source": "Are you sure?",
+      "target": "确定吗？",
+      "match": "literal"
+    },
+    {
+      "source": "This action cannot be undone.",
+      "target": "此操作无法撤销。",
+      "match": "literal"
+    },
+    {
+      "source": "Discard changes",
+      "target": "放弃更改",
+      "match": "literal"
+    },
+    {
+      "source": "Keep editing",
+      "target": "继续编辑",
+      "match": "literal"
+    },
+    {
+      "source": "Close without saving",
+      "target": "不保存并关闭",
+      "match": "literal"
+    },
+    {
+      "source": "Save changes",
+      "target": "保存更改",
+      "match": "literal"
+    },
+    {
+      "source": "All changes saved",
+      "target": "所有更改已保存",
+      "match": "literal"
+    },
+    {
+      "source": "Unable to save",
+      "target": "无法保存",
+      "match": "literal"
+    },
+    {
+      "source": "Unable to load",
+      "target": "无法加载",
+      "match": "literal"
+    },
+    {
+      "source": "Unable to send request",
+      "target": "无法发送请求",
+      "match": "literal"
+    },
+    {
+      "source": "Could not send request",
+      "target": "无法发送请求",
+      "match": "literal"
+    },
+    {
+      "source": "Network error",
+      "target": "网络错误",
+      "match": "literal"
+    },
+    {
+      "source": "Connection refused",
+      "target": "连接被拒绝",
+      "match": "literal"
+    },
+    {
+      "source": "Connection timed out",
+      "target": "连接超时",
+      "match": "literal"
+    },
+    {
+      "source": "Specs",
+      "target": "规范",
+      "match": "literal"
+    },
+    {
+      "source": "Apply theme",
+      "target": "应用主题",
+      "match": "literal"
+    },
+    {
+      "source": "Change",
+      "target": "更改",
+      "match": "literal"
+    },
+    {
+      "source": "Connect Git",
+      "target": "连接 Git",
+      "match": "literal"
+    },
+    {
+      "source": "Manage People",
+      "target": "管理人员",
+      "match": "literal"
+    },
+    {
+      "source": "Reset to default",
+      "target": "重置为默认",
+      "match": "literal"
+    },
+    {
+      "source": "Search tabs",
+      "target": "搜索标签页",
+      "match": "literal"
+    },
+    {
+      "source": "Vault",
+      "target": "保险库",
+      "match": "literal"
+    },
+    {
+      "source": "Accent color",
+      "target": "强调色",
+      "match": "literal"
+    },
+    {
+      "source": "AI credits",
+      "target": "AI 额度",
+      "match": "literal"
+    },
+    {
+      "source": "Apps",
+      "target": "应用",
+      "match": "literal"
+    },
+    {
+      "source": "Breadcrumb navigation",
+      "target": "面包屑导航",
+      "match": "literal"
+    },
+    {
+      "source": "Build and test APIs within your team.",
+      "target": "在你的团队中构建和测试 API。",
+      "match": "literal"
+    },
+    {
+      "source": "Color for buttons and highlights.",
+      "target": "按钮和高亮颜色。",
+      "match": "literal"
+    },
+    {
+      "source": "Create new request",
+      "target": "新建请求",
+      "match": "literal"
+    },
+    {
+      "source": "Customize which panels appear in the sidebar for everyone in this workspace.",
+      "target": "自定义此工作区中所有人的侧边栏面板。",
+      "match": "literal"
+    },
+    {
+      "source": "Sidebar panels",
+      "target": "侧边栏面板",
+      "match": "literal"
+    },
+    {
+      "source": "Workspace theme",
+      "target": "工作区主题",
+      "match": "literal"
+    },
+    {
+      "source": "Workspace type",
+      "target": "工作区类型",
+      "match": "literal"
+    },
+    {
+      "source": "Internal",
+      "target": "内部",
+      "match": "literal"
+    },
+    {
+      "source": "All Workspaces",
+      "target": "所有工作区",
+      "match": "literal"
+    },
+    {
+      "source": "Project workspaces",
+      "target": "项目工作区",
+      "match": "literal"
+    },
+    {
+      "source": "External workspaces",
+      "target": "外部工作区",
+      "match": "literal"
+    },
+    {
+      "source": "Search workspaces...",
+      "target": "搜索工作区...",
+      "match": "literal"
+    },
+    {
+      "source": "Owned By",
+      "target": "所有者",
+      "match": "literal"
+    },
+    {
+      "source": "Last updated",
+      "target": "最后更新",
+      "match": "literal"
+    },
+    {
+      "source": "Waiting for the crew... No connections yet!",
+      "target": "正在等待成员加入... 还没有连接！",
+      "match": "literal"
+    },
+    {
+      "source": "When you are invited to join external workspaces by your partners, they will appear here, ready for you to explore and collaborate.",
+      "target": "当合作伙伴邀请你加入外部工作区时，它们会显示在这里，方便你浏览和协作。",
+      "match": "literal"
+    },
+    {
+      "source": "A directory of all workspaces in",
+      "target": "你可访问的",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "you can access.",
+      "target": "中的所有工作区目录。",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "Go back",
+      "target": "返回",
+      "match": "literal"
+    },
+    {
+      "source": "Tools",
+      "target": "工具",
+      "match": "literal"
+    },
+    {
+      "source": "Edit workspace details",
+      "target": "编辑工作区详情",
+      "match": "literal"
+    },
+    {
+      "source": "Manage workspace members",
+      "target": "管理工作区成员",
+      "match": "literal"
+    },
+    {
+      "source": "Make the workspace unique by having its theme reflect its content and your team's identity. These changes will reflect for all your members.",
+      "target": "通过让主题体现工作区内容和团队标识，让工作区更具辨识度。这些更改会对所有成员生效。",
+      "match": "literal"
+    },
+    {
+      "source": "Theme color",
+      "target": "主题颜色",
+      "match": "literal"
+    },
+    {
+      "source": "No color chosen",
+      "target": "未选择颜色",
+      "match": "literal"
+    },
+    {
+      "source": "Make the workspace unique by having its theme reflect its content and your team's identity.",
+      "target": "通过让主题体现工作区内容和团队标识，让工作区更具辨识度。",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "These changes will reflect for all your members.",
+      "target": "这些更改会对所有成员生效。",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "Expand",
+      "target": "展开",
+      "match": "literal"
+    },
+    {
+      "source": "Filter panels",
+      "target": "筛选面板",
+      "match": "literal"
+    },
+    {
+      "source": "Go back (Alt+Left arrow)",
+      "target": "返回（Alt+左方向键）",
+      "match": "literal"
+    },
+    {
+      "source": "Go forward (Alt+Right arrow)",
+      "target": "前进（Alt+右方向键）",
+      "match": "literal"
+    },
+    {
+      "source": "Input field",
+      "target": "输入框",
+      "match": "literal"
+    },
+    {
+      "source": "Items",
+      "target": "项目",
+      "match": "literal"
+    },
+    {
+      "source": "Local Files",
+      "target": "本地文件",
+      "match": "literal"
+    },
+    {
+      "source": "Maximize",
+      "target": "最大化",
+      "match": "literal"
+    },
+    {
+      "source": "Minimize",
+      "target": "最小化",
+      "match": "literal"
+    },
+    {
+      "source": "More workspace actions",
+      "target": "更多工作区操作",
+      "match": "literal"
+    },
+    {
+      "source": "Navigation menu",
+      "target": "导航菜单",
+      "match": "literal"
+    },
+    {
+      "source": "Open search",
+      "target": "打开搜索",
+      "match": "literal"
+    },
+    {
+      "source": "Overall interface color.",
+      "target": "整体界面颜色。",
+      "match": "literal"
+    },
+    {
+      "source": "Select environment",
+      "target": "选择环境",
+      "match": "literal"
+    },
+    {
+      "source": "Star workspace",
+      "target": "星标工作区",
+      "match": "literal"
+    },
+    {
+      "source": "Toolbar",
+      "target": "工具栏",
+      "match": "literal"
+    },
+    {
+      "source": "New Chat",
+      "target": "新建聊天",
+      "match": "literal"
+    },
+    {
+      "source": "Start using Agent Mode!",
+      "target": "开始使用 Agent 模式！",
+      "match": "literal"
+    },
+    {
+      "source": "Your plan includes",
+      "target": "你的方案包含",
+      "match": "literal"
+    },
+    {
+      "source": "per month to use Agent Mode.",
+      "target": "每月可使用 Agent 模式。",
+      "match": "literal"
+    },
+    {
+      "source": "Describe what you need. Press @ for context, / for Skills.",
+      "target": "描述你需要什么。按 @ 添加上下文，按 / 使用技能。",
+      "match": "literal"
+    },
+    {
+      "source": "'s Workspace",
+      "target": "的工作区",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "profile picture",
+      "target": "头像",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "Get data",
+      "target": "获取数据",
+      "match": "literal"
+    },
+    {
+      "source": "Post an Update",
+      "target": "发布更新",
+      "match": "literal"
+    },
+    {
+      "source": "Write with AI",
+      "target": "使用 AI 编写",
+      "match": "literal"
+    },
+    {
+      "source": "Account settings",
+      "target": "账户设置",
+      "match": "literal"
+    },
+    {
+      "source": "App settings",
+      "target": "应用设置",
+      "match": "literal"
+    },
+    {
+      "source": "Team settings",
+      "target": "团队设置",
+      "match": "literal"
+    },
+    {
+      "source": "Request History",
+      "target": "请求历史",
+      "match": "literal"
+    },
+    {
+      "source": "Keep people informed about your work",
+      "target": "让成员了解你的工作",
+      "match": "literal"
+    },
+    {
+      "source": "Share important announcements and communicate API changes directly from your workspace.",
+      "target": "从你的工作区直接分享重要公告并沟通 API 变更。",
+      "match": "literal"
+    },
+    {
+      "source": "Pin collections",
+      "target": "固定集合",
+      "match": "literal"
+    },
+    {
+      "source": "Add a summary to outline the purpose of this workspace.",
+      "target": "添加摘要以说明此工作区的用途。",
+      "match": "literal"
+    },
+    {
+      "source": "Help people understand your workspace by adding a description...",
+      "target": "通过添加描述帮助他人了解你的工作区...",
+      "match": "literal"
+    },
+    {
+      "source": "Visit app marketplace",
+      "target": "访问应用市场",
+      "match": "literal"
+    },
+    {
+      "source": "Postman integrates with essential tools across the software development pipeline to enable API-first practices and streamline critical workflows.",
+      "target": "Postman 可与软件开发流程中的关键工具集成，以支持 API 优先实践并简化关键工作流。",
+      "match": "literal"
+    },
+    {
+      "source": "Search for apps in Postman's app marketplace and request apps to be installed by your team's admin.",
+      "target": "在 Postman 应用市场中搜索应用，并请求团队管理员安装应用。",
+      "match": "literal"
+    },
+    {
+      "source": "Streamline workflows with the developer tools you already use",
+      "target": "使用你已在用的开发工具简化工作流",
+      "match": "literal"
+    },
+    {
+      "source": "No items in this panel",
+      "target": "此面板中没有项目",
+      "match": "literal"
+    },
+    {
+      "source": "Open Postman on web",
+      "target": "在网页中打开 Postman",
+      "match": "literal"
+    },
+    {
+      "source": "Always open sidebar item in new tab",
+      "target": "始终在新标签页中打开侧边栏项目",
+      "match": "literal"
+    },
+    {
+      "source": "Application",
+      "target": "应用程序",
+      "match": "literal"
+    },
+    {
+      "source": "Automatically open links in desktop app when possible. You can update your preference in the Settings of Postman in your browser.",
+      "target": "尽可能自动在桌面应用中打开链接。你可以在浏览器版 Postman 的设置中更新此偏好。",
+      "match": "literal"
+    },
+    {
+      "source": "Autosave",
+      "target": "自动保存",
+      "match": "literal"
+    },
+    {
+      "source": "Autosave changes to your requests.",
+      "target": "自动保存请求的更改。",
+      "match": "literal"
+    },
+    {
+      "source": "Choose the language for the Postman app and email notifications.",
+      "target": "选择 Postman 应用和电子邮件通知使用的语言。",
+      "match": "literal"
+    },
+    {
+      "source": "Close modal",
+      "target": "关闭弹窗",
+      "match": "literal"
+    },
+    {
+      "source": "Collaborate on files used in requests by sharing your working directory. Learn how to",
+      "target": "通过共享工作目录协作处理请求中使用的文件。了解如何",
+      "match": "literal"
+    },
+    {
+      "source": "Default documentation editor",
+      "target": "默认文档编辑器",
+      "match": "literal"
+    },
+    {
+      "source": "Disable cookie jar for all requests.",
+      "target": "对所有请求禁用 Cookie 罐。",
+      "match": "literal"
+    },
+    {
+      "source": "Disable cookies",
+      "target": "禁用 Cookie",
+      "match": "literal"
+    },
+    {
+      "source": "Enable SSL/TLS session key logging for debugging encrypted connections",
+      "target": "启用 SSL/TLS 会话密钥日志以调试加密连接",
+      "match": "literal"
+    },
+    {
+      "source": "English",
+      "target": "英语",
+      "match": "literal"
+    },
+    {
+      "source": "HTTP version",
+      "target": "HTTP 版本",
+      "match": "literal"
+    },
+    {
+      "source": "Markdown editor",
+      "target": "Markdown 编辑器",
+      "match": "literal"
+    },
+    {
+      "source": "Max response size",
+      "target": "最大响应大小",
+      "match": "literal"
+    },
+    {
+      "source": "Modal",
+      "target": "弹窗",
+      "match": "literal"
+    },
+    {
+      "source": "Open in desktop app",
+      "target": "在桌面应用中打开",
+      "match": "literal"
+    },
+    {
+      "source": "Read files outside working directory",
+      "target": "读取工作目录之外的文件",
+      "match": "literal"
+    },
+    {
+      "source": "Response format detection",
+      "target": "响应格式检测",
+      "match": "literal"
+    },
+    {
+      "source": "Select the HTTP version to use for sending the request.",
+      "target": "选择用于发送请求的 HTTP 版本。",
+      "match": "literal"
+    },
+    {
+      "source": "setup your working directory",
+      "target": "设置你的工作目录",
+      "match": "literal"
+    },
+    {
+      "source": "Show middle workbench",
+      "target": "显示中间工作台",
+      "match": "literal"
+    },
+    {
+      "source": "SSL/TLS key log",
+      "target": "SSL/TLS 密钥日志",
+      "match": "literal"
+    },
+    {
+      "source": "Swap left and right sidebars",
+      "target": "交换左右侧边栏",
+      "match": "literal"
+    },
+    {
+      "source": "Github Issues",
+      "target": "GitHub 问题",
+      "match": "literal"
+    },
+    {
+      "source": "Keyboard shortcuts",
+      "target": "快捷键",
+      "match": "literal"
+    },
+    {
+      "source": "Submenu",
+      "target": "子菜单",
+      "match": "literal"
+    },
+    {
+      "source": "Trust and Security",
+      "target": "信任与安全",
+      "match": "literal"
+    },
+    {
+      "source": "Active when system is set to dark.",
+      "target": "系统设置为深色时启用。",
+      "match": "literal"
+    },
+    {
+      "source": "Active when system is set to light.",
+      "target": "系统设置为浅色时启用。",
+      "match": "literal"
+    },
+    {
+      "source": "Day Theme",
+      "target": "日间主题",
+      "match": "literal"
+    },
+    {
+      "source": "Night Theme",
+      "target": "夜间主题",
+      "match": "literal"
+    },
+    {
+      "source": "Personalize your experience with themes that match your style. Manually select a theme or sync with system settings and let the machine set your day and night themes.",
+      "target": "使用与你风格匹配的主题个性化体验。你可以手动选择主题，或与系统设置同步，让系统自动设置日间和夜间主题。",
+      "match": "literal"
+    },
+    {
+      "source": "Sync with system",
+      "target": "与系统同步",
+      "match": "literal"
+    },
+    {
+      "source": "Theme selection",
+      "target": "主题选择",
+      "match": "literal"
+    },
+    {
+      "source": "Restore Defaults",
+      "target": "恢复默认值",
+      "match": "literal"
+    },
+    {
+      "source": "Accept All",
+      "target": "全部接受",
+      "match": "literal"
+    },
+    {
+      "source": "Cancel Conversation",
+      "target": "取消对话",
+      "match": "literal"
+    },
+    {
+      "source": "Collapse All",
+      "target": "全部折叠",
+      "match": "literal"
+    },
+    {
+      "source": "Environment Selector",
+      "target": "环境选择器",
+      "match": "literal"
+    },
+    {
+      "source": "Expand All",
+      "target": "全部展开",
+      "match": "literal"
+    },
+    {
+      "source": "Open Agent Mode",
+      "target": "打开 Agent 模式",
+      "match": "literal"
+    },
+    {
+      "source": "Open Vault",
+      "target": "打开保险库",
+      "match": "literal"
+    },
+    {
+      "source": "Reject All",
+      "target": "全部拒绝",
+      "match": "literal"
+    },
+    {
+      "source": "Reset Layout",
+      "target": "重置布局",
+      "match": "literal"
+    },
+    {
+      "source": "Search in Current Workspace",
+      "target": "在当前工作区中搜索",
+      "match": "literal"
+    },
+    {
+      "source": "Search Tabs",
+      "target": "搜索标签页",
+      "match": "literal"
+    },
+    {
+      "source": "Send Request with AI",
+      "target": "使用 AI 发送请求",
+      "match": "literal"
+    },
+    {
+      "source": "Show/Hide Console",
+      "target": "显示/隐藏控制台",
+      "match": "literal"
+    },
+    {
+      "source": "Swap Sidebars",
+      "target": "交换侧边栏",
+      "match": "literal"
+    },
+    {
+      "source": "through",
+      "target": "到",
+      "match": "literal"
+    },
+    {
+      "source": "Toggle Left Sidebar",
+      "target": "切换左侧边栏",
+      "match": "literal"
+    },
+    {
+      "source": "Toggle Right Sidebar",
+      "target": "切换右侧边栏",
+      "match": "literal"
+    },
+    {
+      "source": "Toggle Workbench",
+      "target": "切换工作台",
+      "match": "literal"
+    },
+    {
+      "source": "Window and modals",
+      "target": "窗口和弹窗",
+      "match": "literal"
+    },
+    {
+      "source": "Export Scratch Pad Data",
+      "target": "导出 Scratch Pad 数据",
+      "match": "literal"
+    },
+    {
+      "source": "Import Data File",
+      "target": "导入数据文件",
+      "match": "literal"
+    },
+    {
+      "source": "Migrate Data",
+      "target": "迁移数据",
+      "match": "literal"
+    },
+    {
+      "source": "Export all your scratch Pad data into a single dump file.",
+      "target": "将所有 Scratch Pad 数据导出为一个转储文件。",
+      "match": "literal"
+    },
+    {
+      "source": "Export Scratch Pad data",
+      "target": "导出 Scratch Pad 数据",
+      "match": "literal"
+    },
+    {
+      "source": "Migrate and sync all your Scratch Pad data to a workspace.",
+      "target": "将所有 Scratch Pad 数据迁移并同步到工作区。",
+      "match": "literal"
+    },
+    {
+      "source": "Migrate Scratch Pad data",
+      "target": "迁移 Scratch Pad 数据",
+      "match": "literal"
+    },
+    {
+      "source": "Scratch Pad Data",
+      "target": "Scratch Pad 数据",
+      "match": "literal"
+    },
+    {
+      "source": "Install in terminal",
+      "target": "在终端中安装",
+      "match": "literal"
+    },
+    {
+      "source": "Bring the power of Postman to your command line. Run collections, automate tests, and integrate with CI/CD workflows.",
+      "target": "将 Postman 的能力带到命令行。运行集合、自动化测试，并集成 CI/CD 工作流。",
+      "match": "literal"
+    },
+    {
+      "source": "Capture and sync cookies and requests directly from your browser to Postman. Use it to test authenticated APIs and debug browser-based workflows seamlessly.",
+      "target": "从浏览器直接捕获并同步 Cookie 和请求到 Postman。用它测试已认证的 API，并顺畅调试基于浏览器的工作流。",
+      "match": "literal"
+    },
+    {
+      "source": "Download from npm",
+      "target": "从 npm 下载",
+      "match": "literal"
+    },
+    {
+      "source": "Install on Chrome",
+      "target": "安装到 Chrome",
+      "match": "literal"
+    },
+    {
+      "source": "Install on VS Code",
+      "target": "安装到 VS Code",
+      "match": "literal"
+    },
+    {
+      "source": "Postman CLI",
+      "target": "Postman CLI",
+      "match": "literal"
+    },
+    {
+      "source": "Postman Interceptor",
+      "target": "Postman Interceptor",
+      "match": "literal"
+    },
+    {
+      "source": "Postman VS Code Extension",
+      "target": "Postman VS Code 扩展",
+      "match": "literal"
+    },
+    {
+      "source": "Send requests, test APIs, and manage collections — all from within your code editor. Also available for Cursor, Windsurf, and other compatible editors.",
+      "target": "在代码编辑器中发送请求、测试 API、管理集合。也支持 Cursor、Windsurf 和其他兼容编辑器。",
+      "match": "literal"
+    },
+    {
+      "source": "Add Certificate…",
+      "target": "添加证书...",
+      "match": "literal"
+    },
+    {
+      "source": "Add and manage SSL certificates on a per domain basis. Learn more about",
+      "target": "按域名添加和管理 SSL 证书。了解更多关于",
+      "match": "literal"
+    },
+    {
+      "source": "working with certificates",
+      "target": "使用证书",
+      "match": "literal"
+    },
+    {
+      "source": "Postman uses the system’s proxy configurations by default to connect to any online services, or to send API requests.",
+      "target": "Postman 默认使用系统代理配置连接在线服务或发送 API 请求。",
+      "match": "literal"
+    },
+    {
+      "source": "Respect HTTP_PROXY, HTTPS_PROXY, and NO_PROXY environment variables",
+      "target": "遵循 HTTP_PROXY、HTTPS_PROXY 和 NO_PROXY 环境变量",
+      "match": "literal"
+    },
+    {
+      "source": "Specify a proxy setting to act as an intermediary for requests sent through the Builder in Postman. These configurations do not apply to any Postman services. Learn more about",
+      "target": "指定代理设置，作为 Postman Builder 发送请求的中介。这些配置不适用于任何 Postman 服务。了解更多关于",
+      "match": "literal"
+    },
+    {
+      "source": "Use custom proxy configuration",
+      "target": "使用自定义代理配置",
+      "match": "literal"
+    },
+    {
+      "source": "using a custom proxy",
+      "target": "使用自定义代理",
+      "match": "literal"
+    },
+    {
+      "source": "Architecture",
+      "target": "架构",
+      "match": "literal"
+    },
+    {
+      "source": "Desktop platform version",
+      "target": "桌面平台版本",
+      "match": "literal"
+    },
+    {
+      "source": "OS platform",
+      "target": "操作系统平台",
+      "match": "literal"
+    },
+    {
+      "source": "Postman for Windows",
+      "target": "Postman Windows 版",
+      "match": "literal"
+    },
+    {
+      "source": "Privacy",
+      "target": "隐私",
+      "match": "literal"
+    },
+    {
+      "source": "UI version",
+      "target": "UI 版本",
+      "match": "literal"
+    },
+    {
+      "source": "Twitter",
+      "target": "Twitter",
+      "match": "literal"
+    },
+    {
+      "source": "Send + Get a successful response",
+      "target": "发送并获取成功响应",
+      "match": "literal"
+    },
+    {
+      "source": "Send + Visualize response",
+      "target": "发送并可视化响应",
+      "match": "literal"
+    },
+    {
+      "source": "Send + Write tests",
+      "target": "发送并编写测试",
+      "match": "literal"
+    },
+    {
+      "source": "button",
+      "target": "按钮",
+      "match": "literal"
+    },
+    {
+      "source": "Button group",
+      "target": "按钮组",
+      "match": "literal"
+    },
+    {
+      "source": "Open dropdown",
+      "target": "打开下拉菜单",
+      "match": "literal"
+    },
+    {
+      "source": "search",
+      "target": "搜索",
+      "match": "literal"
+    },
+    {
+      "source": "Send options",
+      "target": "发送选项",
+      "match": "literal"
+    },
+    {
+      "source": "Switch request type",
+      "target": "切换请求类型",
+      "match": "literal"
+    },
+    {
+      "source": "Document this request...",
+      "target": "为此请求编写文档...",
+      "match": "literal"
+    }
+  ]
+}

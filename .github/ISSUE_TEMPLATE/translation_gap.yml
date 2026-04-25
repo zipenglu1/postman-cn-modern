@@ -1,0 +1,33 @@
+name: Translation gap
+description: Report visible Postman UI text that is still not localized
+title: "[Translation]: "
+labels:
+  - translation
+body:
+  - type: input
+    id: postman-version
+    attributes:
+      label: Postman version
+      description: Example: 12.7.6
+    validations:
+      required: true
+  - type: textarea
+    id: location
+    attributes:
+      label: Where is the untranslated text?
+      description: Describe the screen, menu, dialog, or workflow.
+      placeholder: Settings > Proxy
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: Untranslated text
+      description: Paste only visible UI text. Do not paste private workspace or request data.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Chinese translation
+      description: Optional but very helpful.

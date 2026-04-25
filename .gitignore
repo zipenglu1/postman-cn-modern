@@ -1,0 +1,14 @@
+.idea
+node_modules
+npm-debug.log*
+reports
+app-*
+lang_old
+original
+app.asar
+app.asar.*
+*.log
+*.tmp
+.env
+.env.*
+php/.idea

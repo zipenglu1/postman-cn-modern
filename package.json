@@ -1,0 +1,47 @@
+{
+  "name": "postman-cn",
+  "version": "0.1.0",
+  "description": "Maintainable Chinese localization CLI for recent Postman desktop builds.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/zipenglu1/postman-cn-modern#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipenglu1/postman-cn-modern.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zipenglu1/postman-cn-modern/issues"
+  },
+  "keywords": [
+    "postman",
+    "postman-cn",
+    "localization",
+    "chinese",
+    "electron",
+    "asar"
+  ],
+  "bin": {
+    "postman-cn": "./bin/postman-cn.js"
+  },
+  "scripts": {
+    "cn:detect": "node ./bin/postman-cn.js detect --json",
+    "cn:dry-run": "node ./bin/postman-cn.js apply --dry-run --json --max-missing 20",
+    "cn:install": "node ./bin/postman-cn.js install --json --force --max-missing 20",
+    "cn:restore": "node ./bin/postman-cn.js restore --json",
+    "cn:scan-live": "node ./scripts/capture-postman-untranslated.js --launch --apply-known",
+    "cn:sweep-live": "node ./scripts/sweep-postman-ui.js --launch --apply-known",
+    "cn:rebuild-dictionary": "node ./scripts/apply-known-ui-translations.js && node ./scripts/generate-legacy-runtime-dictionary.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@electron/asar": "^3.4.1",
+    "commander": "^14.0.2",
+    "fast-glob": "^3.3.3",
+    "fs-extra": "^11.3.2",
+    "picomatch": "^4.0.3",
+    "semver": "^7.7.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
