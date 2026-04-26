@@ -6,11 +6,9 @@
 [![Node](https://img.shields.io/badge/Node.js-20%2B-339933)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-> English README is included below.
 > <p align="center">
   <a href="#中文">中文</a> · <a href="#english">English</a>
 </p>
-> 本文档包含中文和英文两版说明。
 
 ## 中文说明
 
