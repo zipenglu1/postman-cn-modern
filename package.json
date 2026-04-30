@@ -30,6 +30,7 @@
     "cn:restore": "node ./bin/postman-cn.js restore --json",
     "cn:scan-live": "node ./scripts/capture-postman-untranslated.js --launch --apply-known",
     "cn:sweep-live": "node ./scripts/sweep-postman-ui.js --launch --apply-known",
+    "cn:audit": "node ./scripts/audit-postman-ui.js --launch --apply-known --generate-script",
     "cn:rebuild-dictionary": "node ./scripts/apply-known-ui-translations.js && node ./scripts/generate-legacy-runtime-dictionary.js",
     "test": "node --test"
   },
@@ -43,5 +44,8 @@
   },
   "engines": {
     "node": ">=20"
+  },
+  "devDependencies": {
+    "playwright": "^1.59.1"
   }
 }

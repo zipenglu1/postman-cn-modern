@@ -176,6 +176,17 @@ function buildPreloadLocalizerSnippet(entries) {
   const exactDictionary = new Map(${JSON.stringify(exactEntries)});
   const phraseDictionary = ${JSON.stringify(phraseEntries)};
   const attributes = ['aria-label', 'title', 'placeholder'];
+  const skipTags = new Set(['SCRIPT', 'STYLE', 'TEXTAREA', 'INPUT', 'CODE', 'PRE', 'KBD', 'SAMP']);
+  const editorSelector = '.monaco-editor, .CodeMirror, .cm-editor, .ace_editor';
+  const isInsideEditor = (node) => {
+    let el = node.nodeType === Node.TEXT_NODE ? node.parentElement : node;
+    while (el) {
+      if (el.getAttribute && (el.getAttribute('contenteditable') === 'true' || el.getAttribute('contenteditable') === '')) return true;
+      if (el.matches && el.matches(editorSelector)) return true;
+      el = el.parentElement;
+    }
+    return false;
+  };
   const replaceText = (value) => {
     if (!value || typeof value !== 'string') return value;
     const direct = exactDictionary.get(value);
@@ -198,12 +209,14 @@ function buildPreloadLocalizerSnippet(entries) {
   const localizeNode = (node) => {
     if (!node) return;
     if (node.nodeType === Node.TEXT_NODE) {
+      if (isInsideEditor(node)) return;
       const next = replaceText(node.nodeValue);
       if (next !== node.nodeValue) node.nodeValue = next;
       return;
     }
     if (node.nodeType !== Node.ELEMENT_NODE) return;
-    if (['SCRIPT', 'STYLE', 'TEXTAREA'].includes(node.tagName)) return;
+    if (skipTags.has(node.tagName)) return;
+    if (isInsideEditor(node)) return;
     for (const attribute of attributes) {
       const value = node.getAttribute(attribute);
       const next = replaceText(value);
@@ -243,13 +256,18 @@ function buildPreloadLocalizerSnippet(entries) {
   const start = () => {
     if (document.body) enqueue(document.body);
   };
-  window.addEventListener('DOMContentLoaded', () => {
+  const setupObserver = () => {
+    if (!document.body) return;
     start();
     new MutationObserver((mutations) => {
       for (const mutation of mutations) {
-        for (const node of mutation.addedNodes) enqueue(node);
-        if (mutation.type === 'characterData') enqueue(mutation.target);
-        if (mutation.type === 'attributes') enqueue(mutation.target);
+        const target = mutation.target;
+        if (isInsideEditor(target)) continue;
+        for (const node of mutation.addedNodes) {
+          if (!isInsideEditor(node)) enqueue(node);
+        }
+        if (mutation.type === 'characterData') enqueue(target);
+        if (mutation.type === 'attributes') enqueue(target);
       }
     }).observe(document.body, {
       childList: true,
@@ -258,7 +276,12 @@ function buildPreloadLocalizerSnippet(entries) {
       attributes: true,
       attributeFilter: attributes
     });
-  });
+  };
+  if (document.readyState === 'loading') {
+    window.addEventListener('DOMContentLoaded', setupObserver);
+  } else {
+    setupObserver();
+  }
 })();
 `;
 }

@@ -111777,6 +111777,191 @@
       "target": "缩小",
       "match": "literal",
       "runtimeOnly": true
+    },
+    {
+      "source": "My Collection",
+      "target": "我的集合",
+      "match": "literal"
+    },
+    {
+      "source": "Inherit",
+      "target": "继承",
+      "match": "literal"
+    },
+    {
+      "source": "JWT Token",
+      "target": "JWT 令牌",
+      "match": "literal"
+    },
+    {
+      "source": "Digest Auth",
+      "target": "摘要认证",
+      "match": "literal"
+    },
+    {
+      "source": "Hawk Authentication",
+      "target": "Hawk 认证",
+      "match": "literal"
+    },
+    {
+      "source": "AWS Signature",
+      "target": "AWS 签名",
+      "match": "literal"
+    },
+    {
+      "source": "NTLM Authentication",
+      "target": "NTLM 认证",
+      "match": "literal"
+    },
+    {
+      "source": "Add authorization data to",
+      "target": "添加授权数据到",
+      "match": "literal"
+    },
+    {
+      "source": "Prefix",
+      "target": "前缀",
+      "match": "literal"
+    },
+    {
+      "source": "Add to",
+      "target": "添加到",
+      "match": "literal"
+    },
+    {
+      "source": "Copy response",
+      "target": "复制响应",
+      "match": "literal"
+    },
+    {
+      "source": "Download response",
+      "target": "下载响应",
+      "match": "literal"
+    },
+    {
+      "source": "Proxy settings for sending requests",
+      "target": "发送请求的代理设置",
+      "match": "literal"
+    },
+    {
+      "source": "Add a custom proxy URL that Postman will use to send requests.",
+      "target": "添加自定义代理 URL，Postman 将使用它发送请求。",
+      "match": "literal"
+    },
+    {
+      "source": "Add proxy URL",
+      "target": "添加代理 URL",
+      "match": "literal"
+    },
+    {
+      "source": "Proxy URL",
+      "target": "代理 URL",
+      "match": "literal"
+    },
+    {
+      "source": "Proxy bypass toggle",
+      "target": "代理绕过开关",
+      "match": "literal"
+    },
+    {
+      "source": "Save As",
+      "target": "另存为",
+      "match": "literal"
+    },
+    {
+      "source": "Force Delete",
+      "target": "强制删除",
+      "match": "literal"
+    },
+    {
+      "source": "New HTTP Request",
+      "target": "新建 HTTP 请求",
+      "match": "literal"
+    },
+    {
+      "source": "New Collection Runner",
+      "target": "新建集合运行器",
+      "match": "literal"
+    },
+    {
+      "source": "New gRPC Request",
+      "target": "新建 gRPC 请求",
+      "match": "literal"
+    },
+    {
+      "source": "New SSE Request",
+      "target": "新建 SSE 请求",
+      "match": "literal"
+    },
+    {
+      "source": "New GraphQL Request",
+      "target": "新建 GraphQL 请求",
+      "match": "literal"
+    },
+    {
+      "source": "Toggle One-Pane View",
+      "target": "切换单面板视图",
+      "match": "literal"
+    },
+    {
+      "source": "Find and Replace",
+      "target": "查找和替换",
+      "match": "literal"
+    },
+    {
+      "source": "Reopen Closed Tab",
+      "target": "重新打开已关闭的标签页",
+      "match": "literal"
+    },
+    {
+      "source": "Toggle Full Screen",
+      "target": "切换全屏",
+      "match": "literal"
+    },
+    {
+      "source": "Toggle Console",
+      "target": "切换控制台",
+      "match": "literal"
+    },
+    {
+      "source": "Search...",
+      "target": "搜索...",
+      "match": "literal"
+    },
+    {
+      "source": "Spec",
+      "target": "规范",
+      "match": "literal"
+    },
+    {
+      "source": "Flow",
+      "target": "流程",
+      "match": "literal"
+    },
+    {
+      "source": "New flow",
+      "target": "新流程",
+      "match": "literal"
+    },
+    {
+      "source": "No request history",
+      "target": "没有请求历史",
+      "match": "literal"
+    },
+    {
+      "source": "Send the request and",
+      "target": "发送请求并",
+      "match": "literal"
+    },
+    {
+      "source": "browse through its history.",
+      "target": "浏览其历史记录。",
+      "match": "literal"
+    },
+    {
+      "source": "This request does not use any authorization.",
+      "target": "此请求不使用任何授权。",
+      "match": "literal"
     }
   ]
 }

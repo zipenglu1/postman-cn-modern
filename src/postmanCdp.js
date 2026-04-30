@@ -102,6 +102,20 @@ export class CdpClient {
     }
   }
 
+  async screenshot() {
+    const result = await this.send('Page.captureScreenshot', { format: 'png' });
+    return Buffer.from(result.data, 'base64');
+  }
+
+  async navigate(url) {
+    await this.send('Page.navigate', { url });
+  }
+
+  async getPageInfo() {
+    const result = await this.evaluate(`JSON.stringify({ url: location.href, title: document.title })`);
+    return JSON.parse(result);
+  }
+
   close() {
     this.socket.close();
   }
