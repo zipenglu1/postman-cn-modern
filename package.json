@@ -38,7 +38,7 @@
     "@electron/asar": "^3.4.1",
     "commander": "^14.0.2",
     "fast-glob": "^3.3.3",
-    "fs-extra": "^11.3.2",
+    "fs-extra": "^11.3.5",
     "picomatch": "^4.0.3",
     "semver": "^7.7.3"
   },
