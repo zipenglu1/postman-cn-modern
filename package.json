@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@electron/asar": "^3.4.1",
-    "commander": "^14.0.2",
+    "commander": "^15.0.0",
     "fast-glob": "^3.3.3",
     "fs-extra": "^11.3.2",
     "picomatch": "^4.0.3",
