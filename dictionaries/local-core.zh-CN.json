@@ -2393,6 +2393,949 @@
       "match": "literal"
     },
     {
+      "source": "Errors",
+      "target": "错误",
+      "match": "literal"
+    },
+    {
+      "source": "New Run",
+      "target": "新建运行",
+      "match": "literal"
+    },
+    {
+      "source": "View all runs",
+      "target": "查看所有运行",
+      "match": "literal"
+    },
+    {
+      "source": "Collapse",
+      "target": "折叠",
+      "match": "literal"
+    },
+    {
+      "source": "Avg. Resp. Time",
+      "target": "平均响应时间",
+      "match": "literal"
+    },
+    {
+      "source": "Console log",
+      "target": "控制台日志",
+      "match": "literal"
+    },
+    {
+      "source": "Duration",
+      "target": "持续时间",
+      "match": "literal"
+    },
+    {
+      "source": "Iteration",
+      "target": "迭代",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "Run actions",
+      "target": "运行操作",
+      "match": "literal"
+    },
+    {
+      "source": "This response doesn't have a body.",
+      "target": "此响应没有正文。",
+      "match": "literal"
+    },
+    {
+      "source": "Ran on",
+      "target": "运行于",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "Run results",
+      "target": "运行结果",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "Local Vault",
+      "target": "本地保险库",
+      "match": "literal"
+    },
+    {
+      "source": "Locally store secrets in vault",
+      "target": "在保险库中本地存储密钥",
+      "match": "literal"
+    },
+    {
+      "source": "Save this key to native password manager",
+      "target": "将此密钥保存到系统密码管理器",
+      "match": "literal"
+    },
+    {
+      "source": "Save your vault key",
+      "target": "保存你的保险库密钥",
+      "match": "literal"
+    },
+    {
+      "source": "This unique key for your account will be needed when you sign out and sign in. Losing the key will result in the loss of all your secrets. Vault secrets can't be accessed when logged out.",
+      "target": "此唯一密钥在退出登录和重新登录时需要使用。丢失密钥将导致所有密钥丢失。保险库密钥在退出登录后无法访问。",
+      "match": "literal"
+    },
+    {
+      "source": "This will make your vault access seamless every time you sign in.",
+      "target": "这将使你每次登录时都能无缝访问保险库。",
+      "match": "literal"
+    },
+    {
+      "source": "Use vault secrets across workspaces in requests, test scripts, authorizations, environments, etc., using",
+      "target": "在请求、测试脚本、授权、环境等中跨工作区使用保险库密钥，使用",
+      "match": "literal"
+    },
+    {
+      "source": "Browser",
+      "target": "浏览器",
+      "match": "literal"
+    },
+    {
+      "source": "Find and replace",
+      "target": "查找和替换",
+      "match": "literal"
+    },
+    {
+      "source": "Filter secrets",
+      "target": "筛选密钥",
+      "match": "literal"
+    },
+    {
+      "source": "Add new secret",
+      "target": "新建密钥",
+      "match": "literal"
+    },
+    {
+      "source": "Allowed domains",
+      "target": "允许的域",
+      "match": "literal"
+    },
+    {
+      "source": "Store sensitive data locally. Local Vault secrets work across workspaces, are only accessible to you, remain on your device, and are never synced.",
+      "target": "在本地存储敏感数据。本地保险库密钥可跨工作区使用，仅你可访问，保留在设备上且永远不会同步。",
+      "match": "literal"
+    },
+    {
+      "source": "Start proxy session",
+      "target": "启动代理会话",
+      "match": "literal"
+    },
+    {
+      "source": "New proxy session",
+      "target": "新建代理会话",
+      "match": "literal"
+    },
+    {
+      "source": "Browser traffic",
+      "target": "浏览器流量",
+      "match": "literal"
+    },
+    {
+      "source": "System traffic",
+      "target": "系统流量",
+      "match": "literal"
+    },
+    {
+      "source": "Capture HTTPS traffic",
+      "target": "捕获 HTTPS 流量",
+      "match": "literal"
+    },
+    {
+      "source": "Capture and inspect app traffic on your devices.",
+      "target": "在你的设备上捕获并检查应用流量。",
+      "match": "literal"
+    },
+    {
+      "source": "To capture and inspect traffic on your browser, download Postman's interceptor extension.",
+      "target": "要捕获和检查浏览器流量，请下载 Postman Interceptor 扩展。",
+      "match": "literal"
+    },
+    {
+      "source": "Use Postman's proxy to inspect HTTPS communication from your Android, iOS, Linux, macOS, and Windows devices and build client-side applications faster!",
+      "target": "使用 Postman 代理检查来自 Android、iOS、Linux、macOS 和 Windows 设备的 HTTPS 通信，更快地构建客户端应用！",
+      "match": "literal"
+    },
+    {
+      "source": "We'll request to install certificate the first time you start a proxy session.",
+      "target": "首次启动代理会话时，我们将请求安装证书。",
+      "match": "literal"
+    },
+    {
+      "source": "Port :",
+      "target": "端口：",
+      "match": "literal"
+    },
+    {
+      "source": "App store",
+      "target": "应用商店",
+      "match": "literal"
+    },
+    {
+      "source": "Chrome store",
+      "target": "Chrome 商店",
+      "match": "literal"
+    },
+    {
+      "source": "Edge Add-ons",
+      "target": "Edge 扩展",
+      "match": "literal"
+    },
+    {
+      "source": "Mozilla Add-ons",
+      "target": "Mozilla 扩展",
+      "match": "literal"
+    },
+    {
+      "source": "Add secrets",
+      "target": "添加密钥",
+      "match": "literal"
+    },
+    {
+      "source": "All variables",
+      "target": "所有变量",
+      "match": "literal"
+    },
+    {
+      "source": "No global variables in this workspace.",
+      "target": "此工作区中没有全局变量。",
+      "match": "literal"
+    },
+    {
+      "source": "No vault secrets defined.",
+      "target": "未定义保险库密钥。",
+      "match": "literal"
+    },
+    {
+      "source": "RECENTLY VIEWED",
+      "target": "最近查看",
+      "match": "literal"
+    },
+    {
+      "source": "Show and run commands",
+      "target": "显示并运行命令",
+      "match": "literal"
+    },
+    {
+      "source": "Type filter. Click to apply filter",
+      "target": "输入筛选条件。点击应用筛选",
+      "match": "literal"
+    },
+    {
+      "source": "Visibility filter. Click to apply filter",
+      "target": "可见性筛选。点击应用筛选",
+      "match": "literal"
+    },
+    {
+      "source": "Find in",
+      "target": "在其中查找",
+      "match": "literal"
+    },
+    {
+      "source": "New flow",
+      "target": "新建流程",
+      "match": "literal"
+    },
+    {
+      "source": "By",
+      "target": "作者",
+      "match": "literal"
+    },
+    {
+      "source": "In",
+      "target": "位置",
+      "match": "literal"
+    },
+    {
+      "source": "You're all caught up",
+      "target": "已全部查看",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "Get notified on Slack →",
+      "target": "在 Slack 上获取通知 →",
+      "match": "literal"
+    },
+    {
+      "source": "Direct",
+      "target": "直接连接",
+      "match": "literal"
+    },
+    {
+      "source": "Open folder",
+      "target": "打开文件夹",
+      "match": "literal"
+    },
+    {
+      "source": "Clear all cookies",
+      "target": "清除所有 Cookie",
+      "match": "literal"
+    },
+    {
+      "source": "Domains allowlist",
+      "target": "域名白名单",
+      "match": "literal"
+    },
+    {
+      "source": "Add cookie",
+      "target": "添加 Cookie",
+      "match": "literal"
+    },
+    {
+      "source": "cookies",
+      "target": "Cookie",
+      "match": "literal"
+    },
+    {
+      "source": "Manage Cookies",
+      "target": "管理 Cookie",
+      "match": "literal"
+    },
+    {
+      "source": "Sync Cookies",
+      "target": "同步 Cookie",
+      "match": "literal"
+    },
+    {
+      "source": "Retry run",
+      "target": "重新运行",
+      "match": "literal"
+    },
+    {
+      "source": "Request and response details are saved only for the current session. Run the collection again to view this response.",
+      "target": "请求和响应详情仅在当前会话中保存。请重新运行集合以查看此响应。",
+      "match": "literal"
+    },
+    {
+      "source": "Response is no longer available",
+      "target": "响应已不可用",
+      "match": "literal"
+    },
+    {
+      "source": "Postman updates collections, specs and environments, and follows git branches. Push to cloud when ready.",
+      "target": "Postman 更新集合、规范和环境，并跟踪 Git 分支。准备好后可推送到云端。",
+      "match": "literal"
+    },
+    {
+      "source": "Work with your local codebase",
+      "target": "使用本地代码库",
+      "match": "literal"
+    },
+    {
+      "source": "Failed to fetch",
+      "target": "获取失败",
+      "match": "literal"
+    },
+    {
+      "source": "Grid",
+      "target": "网格",
+      "match": "literal"
+    },
+    {
+      "source": "vault",
+      "target": "保险库",
+      "match": "literal",
+      "runtimeStrategy": "phrase"
+    },
+    {
+      "source": "New...",
+      "target": "新建...",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "New Tab",
+      "target": "新建标签页",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "New Runner Tab",
+      "target": "新建运行器标签页",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "New Postman Window",
+      "target": "新建 Postman 窗口",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Import...",
+      "target": "导入...",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Close Window",
+      "target": "关闭窗口",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Close Tab",
+      "target": "关闭标签页",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Force Close Tab",
+      "target": "强制关闭标签页",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Exit",
+      "target": "退出",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Quit",
+      "target": "退出",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Undo",
+      "target": "撤销",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Redo",
+      "target": "重做",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Paste and Match Style",
+      "target": "粘贴并匹配样式",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Select All",
+      "target": "全选",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "View",
+      "target": "视图",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Toggle Full Screen",
+      "target": "切换全屏",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Zoom In",
+      "target": "放大",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Zoom Out",
+      "target": "缩小",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Reset Zoom",
+      "target": "重置缩放",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Toggle Sidebar",
+      "target": "切换侧边栏",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Toggle Two-Pane View",
+      "target": "切换双栏视图",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Show Postman Console",
+      "target": "显示 Postman 控制台",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Swap Left and Right Sidebar",
+      "target": "交换左右侧边栏",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Developer",
+      "target": "开发者",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Show DevTools (Current View)",
+      "target": "显示开发者工具（当前视图）",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "View Logs in Finder",
+      "target": "在访达中查看日志",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "View Logs in Explorer",
+      "target": "在资源管理器中查看日志",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "View Logs in File Manager",
+      "target": "在文件管理器中查看日志",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Window",
+      "target": "窗口",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Go Back",
+      "target": "返回",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Go Forward",
+      "target": "前进",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Next Tab",
+      "target": "下一个标签页",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Previous Tab",
+      "target": "上一个标签页",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Bring All to Front",
+      "target": "全部置于最前",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Help",
+      "target": "帮助",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Setup Web Gateway Support",
+      "target": "设置 Web 网关支持",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Clear Cache and Reload",
+      "target": "清除缓存并重新加载",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Check for Updates",
+      "target": "检查更新",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Check for Updates...",
+      "target": "检查更新...",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Preferences",
+      "target": "偏好设置",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Services",
+      "target": "服务",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Hide Others",
+      "target": "隐藏其他",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Show All",
+      "target": "全部显示",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "New Window",
+      "target": "新建窗口",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Disable Hardware Acceleration",
+      "target": "禁用硬件加速",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Enable Hardware Acceleration",
+      "target": "启用硬件加速",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "You are about to enable hardware acceleration. The application needs to be restarted for this change to take effect.",
+      "target": "你即将启用硬件加速。此更改需要重新启动应用程序才能生效。",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Enabling Hardware Acceleration",
+      "target": "正在启用硬件加速",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "You are about to disable hardware acceleration. The application needs to be restarted for this change to take effect.",
+      "target": "你即将禁用硬件加速。此更改需要重新启动应用程序才能生效。",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Disabling Hardware Acceleration",
+      "target": "正在禁用硬件加速",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Restart",
+      "target": "重启",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Region Preference for New Accounts",
+      "target": "新账户的区域偏好",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Use US Region by Default",
+      "target": "默认使用美国区域",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Use EU Region by Default",
+      "target": "默认使用欧洲区域",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "Always Ask for Region Selection",
+      "target": "始终询问区域选择",
+      "match": "literal",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"settings\":\"Settings\"",
+      "target": "\"settings\":\"设置\"",
+      "match": "regex",
+      "regex": "\"settings\":\"Settings\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"file_label\":\"File\"",
+      "target": "\"file_label\":\"文件\"",
+      "match": "regex",
+      "regex": "\"file_label\":\"File\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"edit_label\":\"Edit\"",
+      "target": "\"edit_label\":\"编辑\"",
+      "match": "regex",
+      "regex": "\"edit_label\":\"Edit\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"toggle_left_sidebar\":\"Toggle Left Sidebar\"",
+      "target": "\"toggle_left_sidebar\":\"切换左侧边栏\"",
+      "match": "regex",
+      "regex": "\"toggle_left_sidebar\":\"Toggle Left Sidebar\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"toggle_workbench\":\"Toggle Workbench\"",
+      "target": "\"toggle_workbench\":\"切换工作台\"",
+      "match": "regex",
+      "regex": "\"toggle_workbench\":\"Toggle Workbench\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"toggle_right_sidebar\":\"Toggle Right Sidebar\"",
+      "target": "\"toggle_right_sidebar\":\"切换右侧边栏\"",
+      "match": "regex",
+      "regex": "\"toggle_right_sidebar\":\"Toggle Right Sidebar\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"reset_layout\":\"Reset Layout\"",
+      "target": "\"reset_layout\":\"重置布局\"",
+      "match": "regex",
+      "regex": "\"reset_layout\":\"Reset Layout\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"minimize\":\"Minimize\"",
+      "target": "\"minimize\":\"最小化\"",
+      "match": "regex",
+      "regex": "\"minimize\":\"Minimize\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"zoom\":\"Zoom\"",
+      "target": "\"zoom\":\"缩放\"",
+      "match": "regex",
+      "regex": "\"zoom\":\"Zoom\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"documentation\":\"Documentation\"",
+      "target": "\"documentation\":\"文档\"",
+      "match": "regex",
+      "regex": "\"documentation\":\"Documentation\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"new_collection\":\"New Collection\"",
+      "target": "\"new_collection\":\"新建集合\"",
+      "match": "regex",
+      "regex": "\"new_collection\":\"New Collection\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"cut\":\"Cut\"",
+      "target": "\"cut\":\"剪切\"",
+      "match": "regex",
+      "regex": "\"cut\":\"Cut\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"copy\":\"Copy\"",
+      "target": "\"copy\":\"复制\"",
+      "match": "regex",
+      "regex": "\"copy\":\"Copy\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"paste\":\"Paste\"",
+      "target": "\"paste\":\"粘贴\"",
+      "match": "regex",
+      "regex": "\"paste\":\"Paste\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"delete\":\"Delete\"",
+      "target": "\"delete\":\"删除\"",
+      "match": "regex",
+      "regex": "\"delete\":\"Delete\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"cancel\":\"Cancel\"",
+      "target": "\"cancel\":\"取消\"",
+      "match": "regex",
+      "regex": "\"cancel\":\"Cancel\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
+      "source": "\"support\":\"Support\"",
+      "target": "\"support\":\"支持\"",
+      "match": "regex",
+      "regex": "\"support\":\"Support\"",
+      "files": [
+        "main.js"
+      ]
+    },
+    {
       "source": "                props.modelName",
       "target": "                ({collection:\"集合\",environment:\"环境\"})[props.modelName] || props.modelName",
       "match": "literal",
@@ -71723,18 +72666,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Check for Updates",
-      "target": "检查更新",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Check for Updates...",
-      "target": "检查更新...",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "Check if your endpoints work as expected when combined with other APIs or services.",
       "target": "与其他 API 或服务结合使用时, 请检查您的端点是否按预期工作.",
       "match": "literal",
@@ -72385,18 +73316,6 @@
     {
       "source": "Close Other Tabs",
       "target": "关闭其他标签页",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Close Tab",
-      "target": "关闭标签页",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Close Window",
-      "target": "关闭窗口",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -76631,12 +77550,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Developer",
-      "target": "开发者",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "developer advocate",
       "target": "开发人员后援",
       "match": "literal",
@@ -76753,12 +77666,6 @@
     {
       "source": "Disabled: ${s}",
       "target": "禁用: ${s}",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Disabling Hardware Acceleration",
-      "target": "禁用硬件加速中",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -78007,12 +78914,6 @@
     {
       "source": "Enables you to identify this fork from the other forks and original.",
       "target": "使您能够从其他分叉和原始分叉中识别此分叉.",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Enabling Hardware Acceleration",
-      "target": "启用硬件加速中",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -80783,12 +81684,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Force Close Tab",
-      "target": "强制关闭标签页",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "Forces the request to be sent as GET, with the --data parameters appended to the query string",
       "target": "强制以 GET 形式发送请求, 并将 --data 参数附加到查询字符串中",
       "match": "literal",
@@ -81773,12 +82668,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Go Back",
-      "target": "返回",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "Go back to Integration run log",
       "target": "返回集成运行日志",
       "match": "literal",
@@ -82219,12 +83108,6 @@
     {
       "source": "help",
       "target": "help', label: '帮助",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Help",
-      "target": "帮助",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -82879,12 +83762,6 @@
     {
       "source": "Import this file?",
       "target": "导入这个文件?",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Import...",
-      "target": "导入...",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -87557,20 +88434,8 @@
       "runtimeOnly": true
     },
     {
-      "source": "New Postman Window",
-      "target": "新建 Postman 窗口",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "New Relic Charts will be fetched via a public URL.",
       "target": "New Relic 图表将通过公共 URL 获取.",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "New Runner Tab",
-      "target": "新建运行标签页",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -87595,12 +88460,6 @@
     {
       "source": "New subtotal: ${g.formatAsCurrency(t)} ${n?\"(Excludes Sales Tax)\":\"\"}",
       "target": "新小计: ${g.formatAsCurrency(t)} ${n?\"(不包括销售税)\":\"\"}",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "New Tab",
-      "target": "新建标签页",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -87631,12 +88490,6 @@
     {
       "source": "New Workspace (to be modified)",
       "target": "新工作区 (待修改)",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "New...",
-      "target": "新建...",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -87691,12 +88544,6 @@
     {
       "source": "NEXT STEPS",
       "target": "下一步",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Next Tab",
-      "target": "下一标签页",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -90311,12 +91158,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Paste and Match Style",
-      "target": "粘贴和匹配样式",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "Paste Item",
       "target": "粘贴项目",
       "match": "literal",
@@ -92039,12 +92880,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Preferences",
-      "target": "首选项",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "Premature close",
       "target": "过早关闭",
       "match": "literal",
@@ -92119,12 +92954,6 @@
     {
       "source": "Previous Item",
       "target": "上一项目",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Previous Tab",
-      "target": "上一标签页",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -92983,12 +93812,6 @@
     {
       "source": "redo",
       "target": "redo', label: '恢复",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Redo",
-      "target": "恢复",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -94169,12 +94992,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Reset Zoom",
-      "target": "重置缩放",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "Resetting all values will replace all current values with the initial values of the variables.",
       "target": "重置所有值会将所有当前值替换为变量的初始值.",
       "match": "literal",
@@ -94447,12 +95264,6 @@
     {
       "source": "Response too large. The response body for \"",
       "target": "响应过大. 响应正文于 \"",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Restart",
-      "target": "重启",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -96257,12 +97068,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Select All",
-      "target": "全选",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "Select all changes",
       "target": "选择所有更改",
       "match": "literal",
@@ -97127,12 +97932,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Services",
-      "target": "服务",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "Session Expired",
       "target": "会话已过期",
       "match": "literal",
@@ -97453,12 +98252,6 @@
     {
       "source": "Setup Proxy",
       "target": "设置代理",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Setup Web Gateway Support",
-      "target": "设置 Web 网关支持",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -97841,12 +98634,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Show DevTools (Current View)",
-      "target": "开发者工具(当前视图)",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "Show DevTools (Shared Shell)",
       "target": "开发者工具(公共 Shell)",
       "match": "literal",
@@ -97933,12 +98720,6 @@
     {
       "source": "Show Password",
       "target": "显示密码",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Show Postman Console",
-      "target": "显示 Postman 控制台",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -105011,18 +105792,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "Toggle Sidebar",
-      "target": "侧边收展",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Toggle Two-Pane View",
-      "target": "切换两窗格视图",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "togglefullscreen",
       "target": "togglefullscreen', label: '切换全屏",
       "match": "literal",
@@ -106399,12 +107168,6 @@
     {
       "source": "undo",
       "target": "undo', label: '撤消",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Undo",
-      "target": "撤消",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -107807,12 +108570,6 @@
       "runtimeOnly": true
     },
     {
-      "source": "View",
-      "target": "查看",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
       "source": "View ",
       "target": "查看",
       "match": "literal",
@@ -108115,24 +108872,6 @@
     {
       "source": "View Listing",
       "target": "查看列表",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "View Logs in Explorer",
-      "target": "在资源管理器中查看日志",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "View Logs in File Manager",
-      "target": "在文件管理器中查看日志",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "View Logs in Finder",
-      "target": "在查找器中查看日志",
       "match": "literal",
       "runtimeOnly": true
     },
@@ -111765,203 +112504,6 @@
       "target": "zoom', label: '放大",
       "match": "literal",
       "runtimeOnly": true
-    },
-    {
-      "source": "Zoom In",
-      "target": "放大",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "Zoom Out",
-      "target": "缩小",
-      "match": "literal",
-      "runtimeOnly": true
-    },
-    {
-      "source": "My Collection",
-      "target": "我的集合",
-      "match": "literal"
-    },
-    {
-      "source": "Inherit",
-      "target": "继承",
-      "match": "literal"
-    },
-    {
-      "source": "JWT Token",
-      "target": "JWT 令牌",
-      "match": "literal"
-    },
-    {
-      "source": "Digest Auth",
-      "target": "摘要认证",
-      "match": "literal"
-    },
-    {
-      "source": "Hawk Authentication",
-      "target": "Hawk 认证",
-      "match": "literal"
-    },
-    {
-      "source": "AWS Signature",
-      "target": "AWS 签名",
-      "match": "literal"
-    },
-    {
-      "source": "NTLM Authentication",
-      "target": "NTLM 认证",
-      "match": "literal"
-    },
-    {
-      "source": "Add authorization data to",
-      "target": "添加授权数据到",
-      "match": "literal"
-    },
-    {
-      "source": "Prefix",
-      "target": "前缀",
-      "match": "literal"
-    },
-    {
-      "source": "Add to",
-      "target": "添加到",
-      "match": "literal"
-    },
-    {
-      "source": "Copy response",
-      "target": "复制响应",
-      "match": "literal"
-    },
-    {
-      "source": "Download response",
-      "target": "下载响应",
-      "match": "literal"
-    },
-    {
-      "source": "Proxy settings for sending requests",
-      "target": "发送请求的代理设置",
-      "match": "literal"
-    },
-    {
-      "source": "Add a custom proxy URL that Postman will use to send requests.",
-      "target": "添加自定义代理 URL，Postman 将使用它发送请求。",
-      "match": "literal"
-    },
-    {
-      "source": "Add proxy URL",
-      "target": "添加代理 URL",
-      "match": "literal"
-    },
-    {
-      "source": "Proxy URL",
-      "target": "代理 URL",
-      "match": "literal"
-    },
-    {
-      "source": "Proxy bypass toggle",
-      "target": "代理绕过开关",
-      "match": "literal"
-    },
-    {
-      "source": "Save As",
-      "target": "另存为",
-      "match": "literal"
-    },
-    {
-      "source": "Force Delete",
-      "target": "强制删除",
-      "match": "literal"
-    },
-    {
-      "source": "New HTTP Request",
-      "target": "新建 HTTP 请求",
-      "match": "literal"
-    },
-    {
-      "source": "New Collection Runner",
-      "target": "新建集合运行器",
-      "match": "literal"
-    },
-    {
-      "source": "New gRPC Request",
-      "target": "新建 gRPC 请求",
-      "match": "literal"
-    },
-    {
-      "source": "New SSE Request",
-      "target": "新建 SSE 请求",
-      "match": "literal"
-    },
-    {
-      "source": "New GraphQL Request",
-      "target": "新建 GraphQL 请求",
-      "match": "literal"
-    },
-    {
-      "source": "Toggle One-Pane View",
-      "target": "切换单面板视图",
-      "match": "literal"
-    },
-    {
-      "source": "Find and Replace",
-      "target": "查找和替换",
-      "match": "literal"
-    },
-    {
-      "source": "Reopen Closed Tab",
-      "target": "重新打开已关闭的标签页",
-      "match": "literal"
-    },
-    {
-      "source": "Toggle Full Screen",
-      "target": "切换全屏",
-      "match": "literal"
-    },
-    {
-      "source": "Toggle Console",
-      "target": "切换控制台",
-      "match": "literal"
-    },
-    {
-      "source": "Search...",
-      "target": "搜索...",
-      "match": "literal"
-    },
-    {
-      "source": "Spec",
-      "target": "规范",
-      "match": "literal"
-    },
-    {
-      "source": "Flow",
-      "target": "流程",
-      "match": "literal"
-    },
-    {
-      "source": "New flow",
-      "target": "新流程",
-      "match": "literal"
-    },
-    {
-      "source": "No request history",
-      "target": "没有请求历史",
-      "match": "literal"
-    },
-    {
-      "source": "Send the request and",
-      "target": "发送请求并",
-      "match": "literal"
-    },
-    {
-      "source": "browse through its history.",
-      "target": "浏览其历史记录。",
-      "match": "literal"
-    },
-    {
-      "source": "This request does not use any authorization.",
-      "target": "此请求不使用任何授权。",
-      "match": "literal"
     }
   ]
 }

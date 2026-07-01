@@ -362,9 +362,10 @@ function replaceStringLiterals(content, replacer) {
 function replaceAllLiteralEntries(content, entries) {
   let count = 0;
   const entryCounts = new Map();
+  const sorted = [...entries].sort((a, b) => b.entry.source.length - a.entry.source.length);
   let output = content;
 
-  for (const { entry, index } of entries) {
+  for (const { entry, index } of sorted) {
     const replaced = replaceOneLiteral(output, entry.source, entry.target);
     if (replaced.count === 0) continue;
     output = replaced.content;
@@ -376,6 +377,16 @@ function replaceAllLiteralEntries(content, entries) {
 }
 
 function replaceOneLiteral(content, source, target) {
+  // For single-word sources, use word boundary matching to avoid
+  // corrupting camelCase identifiers (e.g., "Interface" inside "getAllInterfaces")
+  if (!source.includes(' ') && /^[A-Za-z0-9]+$/.test(source)) {
+    const escaped = source.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const regex = new RegExp(`(?<![A-Za-z0-9])${escaped}(?![A-Za-z0-9])`, 'g');
+    const replaced = content.replace(regex, target);
+    const count = content === replaced ? 0 : (content.match(regex) || []).length;
+    return { count, content: replaced };
+  }
+
   const parts = content.split(source);
   const count = parts.length - 1;
   return { count, content: count === 0 ? content : parts.join(target) };

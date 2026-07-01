@@ -18,18 +18,21 @@ const afterClickMs = Number(getArg('--after-click-ms') ?? 1800);
 const shouldLaunch = args.has('--launch');
 const shouldApplyKnown = args.has('--apply-known');
 const clickLabels = getAllArgs('--click');
-const defaultLabels = [
-  '集合',
-  '环境',
-  '工作区',
-  'API',
-  '监视器',
-  '模拟服务器',
-  '历史',
-  '设置',
-  '应用',
-  '文档',
-  '更新'
+const defaultLabelPairs = [
+  ['集合', 'Collections'],
+  ['环境', 'Environments'],
+  ['工作区', 'Workspaces'],
+  ['API', 'APIs'],
+  ['监视器', 'Monitors'],
+  ['模拟服务器', 'Mock servers'],
+  ['历史', 'History'],
+  ['设置', 'Settings'],
+  ['应用', 'Apps'],
+  ['文档', 'Documentation'],
+  ['更新', 'Updates'],
+  ['保险库', 'Vault'],
+  ['工具', 'Tools'],
+  ['流程', 'Flows']
 ];
 
 assertWebSocketSupport();
@@ -43,18 +46,31 @@ async function main() {
 
   const target = await waitForPostmanTarget(port, waitMs);
   const client = await CdpClient.connect(target.webSocketDebuggerUrl);
-  const labels = clickLabels.length > 0 ? clickLabels : defaultLabels;
   const reports = [];
   const clicks = [];
 
   try {
     reports.push(await captureStep({ client, install, target, label: 'initial' }));
-    for (const label of labels) {
-      const click = await clickVisibleText(client, label);
-      clicks.push(click);
-      if (!click.clicked) continue;
-      await sleep(afterClickMs);
-      reports.push(await captureStep({ client, install, target, label }));
+    if (clickLabels.length > 0) {
+      for (const label of clickLabels) {
+        const click = await clickVisibleText(client, label);
+        clicks.push(click);
+        if (!click.clicked) continue;
+        await sleep(afterClickMs);
+        reports.push(await captureStep({ client, install, target, label }));
+      }
+    } else {
+      for (const [zh, en] of defaultLabelPairs) {
+        let click = await clickVisibleText(client, zh);
+        if (!click.clicked) {
+          click = await clickVisibleText(client, en);
+        }
+        const label = click.clicked ? (click.label || zh) : `${zh}/${en}`;
+        clicks.push(click);
+        if (!click.clicked) continue;
+        await sleep(afterClickMs);
+        reports.push(await captureStep({ client, install, target, label }));
+      }
     }
   } finally {
     client.close();
