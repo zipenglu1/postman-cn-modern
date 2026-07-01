@@ -14,7 +14,7 @@
 
 Postman CN Modern 是一个面向新版 Postman Desktop 的 Windows 优先汉化工具。它延续 [hlmd/Postman-cn](https://github.com/hlmd/Postman-cn) 的本地覆盖思路，但将旧的 PHP 静态替换流程升级为可维护的 Node CLI、ASAR 安装器、运行时 DOM 本地化器和自动化补词工作流。
 
-**强烈建议用于 Postman Desktop 12.x。当前已在 Postman `12.8.4` 上重点验证。**
+**强烈建议用于 Postman Desktop 12.x。当前已在 Postman `12.17.2` 上重点验证。**
 
 Postman 11.x、9.x 或更老版本的文件结构和加载方式差异较大，不建议直接使用当前版本。未来 Postman 13.x 也需要确认兼容后再放开版本范围。
 
@@ -34,12 +34,12 @@ Postman 11.x、9.x 或更老版本的文件结构和加载方式差异较大，�
 
 | Postman 版本 | 状态 | 说明 |
 | --- | --- | --- |
-| 12.8.4 | 已重点验证 | 当前主要目标版本 |
+| 12.17.2 | 已重点验证 | 当前主要目标版本 |
 | 12.x | 推荐尝试 | 字典范围为 `>=12.0.0 <13.0.0`，新版小版本建议先 dry-run |
 | 13.x | 暂不支持 | 需要重新验证 UI 与 preload 结构 |
 | 11.x 及更早 | 不建议 | 文件结构和旧仓库时代差异较大 |
 
-如果你使用的不是 `12.8.4`，建议先运行：
+如果你使用的不是 `12.17.2`，建议先运行：
 
 ```powershell
 npm run cn:detect
@@ -153,7 +153,7 @@ npm test
 npm run cn:scan-live
 ```
 
-自动扫常见导航入口：
+自动遍历所有导航面板（双语标签，无论 Postman 是否已汉化均可正常运行）：
 
 ```powershell
 npm run cn:sweep-live
@@ -166,6 +166,8 @@ npm run cn:rebuild-dictionary
 ```
 
 报告会生成到 `reports/untranslated-*.json`，该目录不会提交到 Git。
+
+翻译覆盖范围包括 Web 渲染的远程 UI 和本地 `main.js` 中的 Electron 原生菜单。补丁器使用词边界匹配避免破坏 camelCase 标识符，对易冲突的短词（如 `Edit`、`File`）支持 JSON key-value regex 精确匹配。
 
 完整流程见 [docs/TRANSLATION_WORKFLOW.md](docs/TRANSLATION_WORKFLOW.md)。
 
@@ -242,7 +244,7 @@ php/lang/                         来自 hlmd/Postman-cn 的旧词库迁移来�
 
 Postman CN Modern is a Windows-first Chinese localization tool for recent Postman Desktop builds. It follows the local override idea from [hlmd/Postman-cn](https://github.com/hlmd/Postman-cn), but replaces the old PHP static replacement flow with a maintainable Node CLI, ASAR installer, runtime DOM localizer, and automated translation workflow.
 
-**This project is best used with Postman Desktop 12.x. It has been primarily verified on Postman `12.8.4`.**
+**This project is best used with Postman Desktop 12.x. It has been primarily verified on Postman `12.17.2`.**
 
 Postman 11.x, 9.x, and older releases have significantly different file layouts and loading behavior. They are not recommended for this tool. Future Postman 13.x releases should be verified before the version range is expanded.
 
@@ -262,12 +264,12 @@ Postman 11.x, 9.x, and older releases have significantly different file layouts 
 
 | Postman version | Status | Notes |
 | --- | --- | --- |
-| 12.8.4 | Verified | Primary target version |
+| 12.17.2 | Verified | Primary target version |
 | 12.x | Recommended | Dictionary range is `>=12.0.0 <13.0.0`; dry-run first for newer minor versions |
 | 13.x | Not supported yet | Needs UI and preload verification |
 | 11.x and older | Not recommended | File layout differs too much from the current target |
 
-If you are not on `12.8.4`, run this first:
+If you are not on `12.17.2`, run this first:
 
 ```powershell
 npm run cn:detect
@@ -381,7 +383,7 @@ Capture untranslated text from the current live Postman window:
 npm run cn:scan-live
 ```
 
-Sweep common navigation entries:
+Sweep all navigation panels (bilingual labels — works whether Postman is localized or not):
 
 ```powershell
 npm run cn:sweep-live
@@ -394,6 +396,8 @@ npm run cn:rebuild-dictionary
 ```
 
 Reports are written to `reports/untranslated-*.json` and ignored by Git.
+
+Translation coverage includes both the web-rendered remote UI and the Electron native menus in local `main.js`. The patcher uses word-boundary matching to avoid corrupting camelCase identifiers, and supports JSON key-value regex entries for short words prone to substring collisions (e.g., `Edit`, `File`).
 
 See [docs/TRANSLATION_WORKFLOW.md](docs/TRANSLATION_WORKFLOW.md) for details.
 
