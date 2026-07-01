@@ -35,7 +35,7 @@
     "test": "node --test"
   },
   "dependencies": {
-    "@electron/asar": "^3.4.1",
+    "@electron/asar": "^4.2.0",
     "commander": "^14.0.2",
     "fast-glob": "^3.3.3",
     "fs-extra": "^11.3.2",
